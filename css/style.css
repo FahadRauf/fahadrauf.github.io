@@ -348,7 +348,7 @@
   .side-navbar {
     position: fixed;
     bottom: auto;
-    top: 5%;
+/*     top: 5%; */
     right: 0;
     left: 0;
     width: 100%;
