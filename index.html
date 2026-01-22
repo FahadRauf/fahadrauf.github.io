@@ -3,169 +3,266 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fahad Rauf -  Portfolio</title>
+  <title>Fahad Rauf - Data Visualization Specialist</title>
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-
-
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-      <!--_______________________________ START OF NAV SECTION___________________________________ -->
-  <header>
-  <nav class="side-navbar">
-  <a href="#home"><i class="fas fa-house"></i> Home</a>
-  <a href="#about"><i class="fas fa-user"></i> About</a>
-  <a href="#projects"><i class="fas fa-briefcase"></i> Projects</a>
-  <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
-</nav>
-  </header>
-    <!--_______________________________ END OF NAV SECTION___________________________________ -->
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-text">FR</span>
+      </div>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-toggle" id="nav-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
 
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="hero-background">
+      <div class="gradient-orb orb-1"></div>
+      <div class="gradient-orb orb-2"></div>
+      <div class="gradient-orb orb-3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-image-wrapper">
+        <img src="./img/IMG-20240417-WA0016.jpg" alt="Fahad Rauf" class="hero-image" />
+      </div>
+      <div class="hero-text">
+        <h1 class="hero-title">
+          <span class="title-line">Hello, I'm</span>
+          <span class="title-name">Fahad <span class="accent">Rauf</span></span>
+        </h1>
+        <p class="hero-subtitle">Data Visualization Specialist</p>
+        <p class="hero-description">Turning data into stories through powerful and elegant dashboards</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="mouse"></div>
+    </div>
+  </section>
 
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">01</span>
+        <h2 class="section-title">About <span class="accent">Me</span></h2>
+      </div>
+      <div class="about-content">
+        <div class="about-text-wrapper">
+          <div class="about-badge">
+            <i class="fas fa-graduation-cap"></i>
+            <span>Computer Science Graduate</span>
+          </div>
+          <h3 class="about-heading">The Journey</h3>
+          <div class="about-text">
+            <p>
+              With a Bachelor's degree in Computer Science, my journey in tech quickly led me to a passion for creating data visualizations. I thrive on transforming raw data into insightful visuals using Tableau.
+            </p>
+            <p>
+              My visualizations are inspired by the beauty and colors of the world and things around me. My affinity for aesthetics is mirrored in my projects embodying my love for elegant, eye-catching design. As I merge the worlds of data and frontend development, I am excited to continue refining and expanding my skills.
+            </p>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <i class="fas fa-chart-line"></i>
+              <span>Data Visualization</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-table"></i>
+              <span>Tableau</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-code"></i>
+              <span>Frontend Development</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-palette"></i>
+              <span>UI/UX Design</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-
-        <!--_______________________________ START OF HOME SECTION___________________________________ -->
-  <main>
-   <section id="home" class="home-section">
-  <div class="home-content fade-target">
-    <img src="./img/IMG-20240417-WA0016.jpg" alt="Profile" class="profile-pic" />
-    <h1>Fahad <span class="alternate">Rauf</span></h1>
-    <p class="tagline">Turning data into stories through powerful and elegant dashboards.</p>
-  </div>
-</section>
-
-
-    <!--_______________________________ END OF HOME SECTION___________________________________ -->
-
-
-
-
-
-<!--_______________________________ START OF ABOUT SECTION___________________________________ -->
-
-<section id="about" class="about-section">
-  <div class="about-container fade-target">
-   
-    <div class="about-text" >
-  <h2>THE <span class="alternate">JOURNEY</span></h2>
-  <p>
-    With a Bachelor's degree in Computer Science, my journey in tech quickly led me to a passion for creating data visualizations. I thrive on transforming raw data into sightful visuals using tableau. 
-    My visualizations are inspired by the beauty and colors of the world and things around me. My affinity for aesthetics is mirrored in my projects embodying my love for elegant, eye-catching design. As I merge the worlds of data and frontend development, I am excited to continue refining and expanding my skills.
-  </p>
- 
-</div>
-  </div>
-</section>
-
-
-<!--_______________________________ END OF ABOUT SECTION___________________________________ -->
-
-
-
-
-
-
-<!--_______________________________ START OF PROJECTS SECTION___________________________________ -->
-
-    <section id="projects" class="projects-section fade-target">
-        <h2>MY <span class="alternate">Projects</span></h2>
-        <div class="project-grid">
-           <div class="project-card">
-             <a href="https://public.tableau.com/app/profile/fahad.rauf/viz/StudentHabitsvsPerformanceDashboard/StudentHabitsVsTheirPerformance" target="_blank">
-                <img src="./img/Screenshot (88).png" alt="Dashboard 1">
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">02</span>
+        <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image-wrapper">
+            <img src="./img/Screenshot (88).png" alt="Student Habits vs Performance Dashboard" />
+            <div class="project-overlay">
+              <a href="https://public.tableau.com/app/profile/fahad.rauf/viz/StudentHabitsvsPerformanceDashboard/StudentHabitsVsTheirPerformance" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i>
+                View Dashboard
               </a>
-          <h3 class="alternate">Student Habits vs Performance</h3>
-          <p>
-            Designed an interactive Tableau dashboard analyzing how various lifestyle and academic habits affect student exam performance. 
-            Explored correlations between study time, parental education, gender, job status, internet quality, and exam scores. 
-            Uncovered surprising insights: students whose parents held a bachelor’s degree outperformed those 
-            with parents holding a master’s. Observed that males without part-time jobs performed better, while females with
-              part-time jobs outperformed those without.
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Student Habits vs Performance</h3>
+            <p class="project-description">
+              Designed an interactive Tableau dashboard analyzing how various lifestyle and academic habits affect student exam performance. Explored correlations between study time, parental education, gender, job status, internet quality, and exam scores.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Tableau</span>
+              <span class="tag">Data Analysis</span>
+              <span class="tag">Education</span>
+            </div>
+          </div>
+        </div>
 
+        <div class="project-card">
+          <div class="project-image-wrapper">
+            <img src="./img/Screenshot (45).png" alt="IMDB Top 10 Movies Dashboard" />
+            <div class="project-overlay">
+              <a href="https://public.tableau.com/app/profile/fahad.rauf/viz/IMDB-Top1000/IMDB1000Dashboard" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i>
+                View Dashboard
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">IMDB Top 1000 Movies Dashboard</h3>
+            <p class="project-description">
+              Designed an interactive Tableau dashboard using the IMDb Top 1000 dataset to explore trends in movies, genres, and directors. Visualized key metrics including top-grossing films, most frequent directors, and dominant genres over the decades.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Tableau</span>
+              <span class="tag">Entertainment</span>
+              <span class="tag">Analytics</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image-wrapper">
+            <img src="./img/Screenshot (60).png" alt="COVID-19 Global Impact Dashboard" />
+            <div class="project-overlay">
+              <a href="https://public.tableau.com/app/profile/fahad.rauf/viz/COVID-19Stats_16421523908980/Dashboard" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i>
+                View Dashboard
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">COVID-19 Global Impact Dashboard</h3>
+            <p class="project-description">
+              Developed a Tableau dashboard to visualize the global impact of the COVID-19 pandemic using time-series case data. Analyzed trends in confirmed cases, death rates, and country-wise impact to uncover key patterns.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Tableau</span>
+              <span class="tag">Healthcare</span>
+              <span class="tag">Time Series</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image-wrapper">
+            <img src="./img/Screenshot (63).png" alt="Customer Churn Rate Analysis Dashboard" />
+            <div class="project-overlay">
+              <a href="https://public.tableau.com/app/profile/fahad.rauf/viz/CustomerChurnRate_16439632988060/ChurnAnalysis" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i>
+                View Dashboard
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Customer Churn Rate Analysis</h3>
+            <p class="project-description">
+              Built a Tableau dashboard to analyze customer churn patterns for a telecommunications company. Used demographic segmentation to identify high-risk customer groups and trends in churn behavior.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Tableau</span>
+              <span class="tag">Business Intelligence</span>
+              <span class="tag">Analytics</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">03</span>
+        <h2 class="section-title">Let's <span class="accent">Connect</span></h2>
+      </div>
+      <div class="contact-content">
+        <div class="contact-text">
+          <p class="contact-intro">
+            If you're interested in working together or have any questions, feel free to reach out. I'm currently open to freelance opportunities in data visualization and dashboard design.
           </p>
+          <div class="contact-info">
+            <a href="mailto:fahadrauf1997@gmail.com" class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">Email</span>
+                <span class="contact-value">fahadrauf1997@gmail.com</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/fahad-rauf-8933b81a3/" target="_blank" class="social-link" aria-label="LinkedIn">
+            <div class="social-icon">
+              <i class="fab fa-linkedin-in"></i>
+            </div>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://www.instagram.com/fahadrauf_1/" target="_blank" class="social-link" aria-label="Instagram">
+            <div class="social-icon">
+              <i class="fab fa-instagram"></i>
+            </div>
+            <span>Instagram</span>
+          </a>
+          <a href="https://x.com/FahadRauf3" target="_blank" class="social-link" aria-label="Twitter">
+            <div class="social-icon">
+              <i class="fab fa-x-twitter"></i>
+            </div>
+            <span>Twitter</span>
+          </a>
+        </div>
+      </div>
     </div>
-          <div class="project-card">
-             <a href="https://public.tableau.com/app/profile/fahad.rauf/viz/IMDB-Top1000/IMDB1000Dashboard" target="_blank">
-                <img src="./img/Screenshot (45).png" alt="Dashboard 1">
-              </a>
-          <h3 class="alternate">IMDB Top 10 Movies Dashboard</h3>
-          <p>
-            Designed an interactive Tableau dashboard using the IMDb Top 1000 dataset to explore trends in movies, genres, and directors.
-            Visualized key metrics including top-grossing films, most frequent directors, and dominant genres over the decades.
-            Discovered that Drama emerged as the most common genre and Alfred Hitchcock directed the most films.
-          </p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Fahad Rauf. All rights reserved.</p>
     </div>
-    
-     <div class="project-card">
-             <a href="https://public.tableau.com/app/profile/fahad.rauf/viz/COVID-19Stats_16421523908980/Dashboard" target="_blank">
-                <img src="./img/Screenshot (60).png" alt="Dashboard 1">
-              </a>
-          <h3 class="alternate">Covid-19 Global Impact Dashboard</h3>
-          <p>
-            Developed a Tableau dashboard to visualize the global impact of the COVID-19 pandemic using time-series case data.
-            Analyzed trends in confirmed cases, death rates, and country-wise impact to uncover key patterns.
-            Found that the United States had the highest number of deaths, followed by Brazil and India.
-            Identified a global death rate of 1.75%, with over 5.5 million total deaths and more than 313 million confirmed cases.
-</p>
-    </div>  
-          <div class="project-card">
-             <a href="https://public.tableau.com/app/profile/fahad.rauf/viz/CustomerChurnRate_16439632988060/ChurnAnalysis" target="_blank">
-                <img src="./img/Screenshot (63).png" alt="Dashboard 1">
-              </a>
-          <h3 class="alternate">Customer Churn Rate Analysis Dashboard</h3>
-          <p>
-            Built a Tableau dashboard to analyze customer churn patterns for a telecommunications company.
-            Used demographic segmentation to identify high-risk customer groups and trends in churn behavior.
-            Highlighted a total churn rate of 26.86% across 1,796 customers, with California (CA) reporting the highest churn by state.
-            Discovered that older customers were more likely to churn, with age bin 70 showing a 43.85% churn rate and age bin 80 showing 52%.
-</p>
-    </div>         
-  </div>
-      </section>
-<!--_______________________________ END OF PROJECTS SECTION___________________________________ -->
+  </footer>
 
-
-
-
-
-    <!--_______________________________ START OF CONTACT SECTION___________________________________ -->
-    <section id="contact" class="contact-section">
-  <h1>LET'S <span class="alternate">CONNECT</span></h1>
-  <div class="contact-container">
-    <div class="contact-info">
-      <p>If you're interested in working together or have any questions, feel free to reach out. I’m currently open to freelance opportunities in data visualization and dashboard design.</p>
-      <ul class="contact-links">
-  <li>
-    <a href="https://www.linkedin.com/in/fahad-rauf-8933b81a3/" target="_blank">
-      <span class="icon-sphere"><i class="fab fa-linkedin"></i></span>      LinkedIn 
-    </a>
-  </li>
-  <li>
-    <a href="https://www.instagram.com/fahadrauf_1/" target="_blank">
-      <span class="icon-sphere"><i class="fab fa-instagram"></i></span> Instagram
-    </a>
-  </li>
-  <li>
-    <a href="https://x.com/FahadRauf3" target="_blank">
-      <span class="icon-sphere"><i class="fab fa-x-twitter"></i></span> X
-    </a>
-  </li>
-  <li >
-      <span class="icon-sphere "><i class="fas fa-envelope"></i></span> <span class="email">fahadrauf1997@gmail.com</span>
-    </a>
-  </li>
-</ul>
-
-    </div>
-  </div>
-</section>
-
-    <!--_______________________________ END OF CONTACT SECTION___________________________________ -->
-  </main>
   <script src="./js/script.js"></script>
 </body>
 </html>
