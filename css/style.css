@@ -1,5 +1,5 @@
 /* ===========================================
-   MODERN PORTFOLIO - DARK THEME
+  DARK THEME
    =========================================== */
 
 :root {
@@ -174,14 +174,7 @@ body {
   animation: float 20s ease-in-out infinite;
 }
 
-/* .orb-1 {
-  width: 500px;
-  height: 500px;
-  background: linear-gradient(135deg, #10b981 0%, #22c55e 100%);
-  top: -200px;
-  left: -200px;
-  animation-delay: 0s;
-} */
+
 
 .orb-2 {
   width: 400px;
@@ -786,6 +779,11 @@ section {
 
   .hero-buttons {
     justify-content: center;
+  }
+
+  /* Hide scroll indicator when hero stacks to prevent overlap with buttons */
+  .scroll-indicator {
+    display: none;
   }
 
   .contact-content {
