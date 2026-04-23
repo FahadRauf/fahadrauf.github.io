@@ -1,0 +1,26 @@
+.bg-pattern {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: -1;
+  opacity: 0.32;
+  mix-blend-mode: multiply;
+  animation: bgDrift 120s linear infinite;
+}
+
+@keyframes bgDrift {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-220px, -220px, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bg-pattern {
+    animation: none;
+  }
+}

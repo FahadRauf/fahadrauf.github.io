@@ -1,0 +1,170 @@
+.contact .section-heading .eyebrow {
+  background: var(--peach);
+  color: var(--coral-deep);
+}
+
+.contact-card {
+  padding: clamp(26px, 4vw, 44px);
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  max-width: 860px;
+  margin-inline: auto;
+}
+
+.email-row {
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.email-pill {
+  flex: 1;
+  min-width: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px 22px;
+  background: linear-gradient(
+    120deg,
+    var(--peach-soft) 0%,
+    var(--mint-soft) 100%
+  );
+  border-radius: var(--radius-pill);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  color: var(--ink);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.email-pill:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+.email-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--coral-deep);
+  padding: 4px 10px;
+  background: #fff;
+  border-radius: var(--radius-pill);
+}
+.email-address {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  color: var(--ink);
+  overflow-wrap: anywhere;
+}
+
+.copy-btn {
+  position: relative;
+  min-width: 110px;
+  padding: 14px 18px;
+  border-radius: var(--radius-pill);
+  background: var(--ink);
+  color: var(--cream);
+  font-weight: 600;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.copy-btn:hover {
+  transform: translateY(-2px);
+  background: #2b2925;
+}
+.copy-state {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.copy-state.is-copied {
+  color: var(--mint);
+}
+
+.contact-note {
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+.socials {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+}
+
+.social-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 18px 10px;
+  background: #fff;
+  border: 1px solid var(--cream-3);
+  border-radius: var(--radius);
+  transition: transform 0.22s ease, box-shadow 0.22s ease,
+    background-color 0.22s ease;
+  text-align: center;
+}
+.social-link:hover {
+  transform: translateY(-4px) rotate(-1.5deg);
+  background: var(--peach-soft);
+  box-shadow: var(--shadow);
+}
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: var(--cream-2);
+  color: var(--ink);
+  transition: background-color 0.22s ease, color 0.22s ease;
+}
+.social-link:hover .social-icon {
+  background: var(--coral);
+  color: #fff;
+}
+.social-name {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.site-footer {
+  margin-top: 48px;
+  text-align: center;
+  color: var(--ink-softer);
+  font-size: 0.85rem;
+}
+
+@media (max-width: 720px) {
+  .socials {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .email-pill {
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 8px;
+    padding: 18px;
+  }
+  .copy-btn {
+    width: 100%;
+  }
+}
+@media (max-width: 420px) {
+  .socials {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,32 @@
+.section-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 48px;
+}
+.section-heading.align-center {
+  align-items: center;
+  text-align: center;
+}
+.section-heading .section-title {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+.heading-underline {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 10px;
+}
+.accent-coral .heading-underline {
+  color: var(--coral);
+}
+.accent-mint .heading-underline {
+  color: var(--mint-deep);
+}
+.accent-peach .heading-underline {
+  color: var(--peach-deep);
+}

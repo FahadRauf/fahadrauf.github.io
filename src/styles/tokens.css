@@ -1,0 +1,39 @@
+:root {
+  /* Palette — peach + mint + cream, no blue, no dark */
+  --cream: #fbf7ef;
+  --cream-2: #f3ecdd;
+  --cream-3: #ede3ce;
+  --peach: #ffd9be;
+  --peach-soft: #ffe7d4;
+  --peach-deep: #f5a97a;
+  --coral: #e68a6b;
+  --coral-deep: #d36a4a;
+  --mint: #d8efe3;
+  --mint-soft: #e9f6ef;
+  --mint-deep: #6bbf9f;
+  --mint-deeper: #4ea082;
+  --ink: #3d3a36;
+  --ink-soft: #6b655b;
+  --ink-softer: #8a8376;
+
+  /* Depth */
+  --shadow-xs: 0 2px 6px -2px rgba(61, 58, 54, 0.12);
+  --shadow-sm: 0 6px 16px -6px rgba(61, 58, 54, 0.16);
+  --shadow: 0 10px 30px -12px rgba(61, 58, 54, 0.18);
+  --shadow-lg: 0 24px 50px -20px rgba(61, 58, 54, 0.22);
+
+  /* Shape */
+  --radius-sm: 10px;
+  --radius: 18px;
+  --radius-lg: 28px;
+  --radius-pill: 999px;
+
+  /* Typography */
+  --font-display: "Fraunces", "Playfair Display", Georgia, serif;
+  --font-body: "Inter", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+
+  /* Layout */
+  --max-w: 1200px;
+  --gutter: clamp(16px, 4vw, 40px);
+  --section-py: clamp(72px, 10vh, 128px);
+}
