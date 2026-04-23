@@ -2,7 +2,6 @@ import {
   FaGithub,
   FaXTwitter,
   FaInstagram,
-  FaEnvelope,
 } from "react-icons/fa6";
 import TableauIcon from "../components/icons/TableauIcon.jsx";
 
@@ -32,11 +31,5 @@ export const socials = [
     label: "Instagram",
     href: "https://www.instagram.com/fahadrauf_1/",
     Icon: FaInstagram,
-  },
-  {
-    id: "email",
-    label: "Email",
-    href: `mailto:${EMAIL}`,
-    Icon: FaEnvelope,
   },
 ];
