@@ -11,6 +11,17 @@ export const projects = [
     links: { repo: "https://github.com/FahadRauf/bike-rental-app" },
   },
   {
+    id: "tarnished-archive",
+    title: "Tarnished Archive",
+    image: "/img/tarnished-archive.png",
+    kind: "dev",
+    kindLabel: "Web / App",
+    blurb:
+      "A React app for browsing Elden Ring–style bosses: areas, HP (including multi-phase fights), rune rewards, strengths, and weaknesses—with filters, per-boss notes, and persistent defeat progress in the browser so you always know how many you’ve cleared.",
+    tags: ["React", "React Router", "CSS", "localStorage"],
+    links: { repo: "https://github.com/FahadRauf/elden-ring-boss-project" },
+  },
+  {
     id: "ludo",
     title: "Ludo Desktop",
     image: "/img/screenshot42.png",
